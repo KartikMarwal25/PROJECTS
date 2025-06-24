@@ -55,6 +55,31 @@ Trains a fully connected neural network to classify grayscale images of clothing
 ### Prerequisites
 Ensure you have the following Python libraries installed:
 
+
+## 📥 Dataset Access
+
+The dataset used in this project (landmark image classification) is **not included** in this repository due to its large size.
+
+### Required Files:
+- `train.csv`: Contains image IDs and corresponding landmark labels.
+- `images/` directory: Contains all training images in a nested folder structure.
+
+### ⚠️ Note:
+The dataset was downloaded from a public source in 2023, but the original links are no longer available. You may use:
+- Any large-scale landmark image dataset with image IDs and labels.
+- Or generate your own dataset and adjust the file path logic accordingly.
+
+> If you'd like to test the code, you can use a **smaller, local set of images** organized as:
+
+
+And update `train.csv` in the following format:
+
+
+Alternatively, explore datasets like:
+- [Google Landmark Recognition Dataset (GLDv2)](https://github.com/cvdfoundation/google-landmark)
+- [Kaggle Datasets - Landmark Image Sets](https://www.kaggle.com/datasets)
+
+
 ```bash
 pip install numpy pandas opencv-python matplotlib keras pillow
 
