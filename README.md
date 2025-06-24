@@ -79,19 +79,21 @@ Alternatively, explore datasets like:
 - [Google Landmark Recognition Dataset (GLDv2)](https://github.com/cvdfoundation/google-landmark)
 - [Kaggle Datasets - Landmark Image Sets](https://www.kaggle.com/datasets)
 
-
-```bash
-pip install numpy pandas opencv-python matplotlib keras pillow
-
-
-
-
-
 To Run Any Project
 1 Clone the repository:
+` ```bash
     git clone https://github.com/KartikMarwal25/PROJECTS.git
-    cd PROJECTS
+    cd PROJECTS `
 2 Open the desired .py file and run it using:
-    python filename.py
+` ```bash
+    python filename.py `
 For the landmark classifier project, ensure the train.csv file and image dataset are correctly structured and paths updated accordingly.
     
+
+` ```bash
+pip install numpy pandas opencv-python matplotlib keras pillow`
+
+
+
+
+
